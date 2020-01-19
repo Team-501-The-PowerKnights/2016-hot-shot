@@ -1,0 +1,286 @@
+<head><version>2.79.21</version></head>
+<Axis_Internet_Camera>
+  <auto_back_light>TRUE</auto_back_light>
+  <auto_exposure>FALSE</auto_exposure>
+  <auto_white_balance>TRUE</auto_white_balance>
+  <brightness_value>50</brightness_value>
+  <color_level_value>50</color_level_value>
+  <compression_index>7</compression_index>
+  <contrast_value>50</contrast_value>
+  <exposure_value>50</exposure_value>
+  <ip_address>10.5.1.11</ip_address>
+  <is_active>TRUE</is_active>
+  <mirrot>FALSE</mirrot>
+  <password>FRC</password>
+  <port>80</port>
+  <resolution>640x480</resolution>
+  <sharpness_value>50</sharpness_value>
+  <username>FRC</username>
+</Axis_Internet_Camera>
+<Rotate>
+  <center_x>0.5</center_x>
+  <center_y>0.5</center_y>
+  <custom_degree>0.0</custom_degree>
+  <mode>90</mode>
+</Rotate>
+<Python_Program_v3x disabled>
+  <auto_reload>TRUE</auto_reload>
+  <continue_on_errors>FALSE</continue_on_errors>
+  <filename>.\RawImage_TimeStamp.py</filename>
+  <script>import rr
+</script>
+  <source_mode>file</source_mode>
+  <tab_size_index>1</tab_size_index>
+</Python_Program_v3x>
+<Write_Images disabled>
+  <create_folder>FALSE</create_folder>
+  <filename>[raw_filename]</filename>
+  <image_to_save>Current</image_to_save>
+  <is_recording>TRUE</is_recording>
+  <jpeg_quality>1</jpeg_quality>
+  <limit_frames>0</limit_frames>
+  <limit_time_number>0</limit_time_number>
+  <limit_time_type>-1</limit_time_type>
+  <number_from>1</number_from>
+  <number_images>FALSE</number_images>
+  <silent_errors>FALSE</silent_errors>
+  <write_exif>FALSE</write_exif>
+  <write_immediately>TRUE</write_immediately>
+</Write_Images>
+<Marker>
+  <include_graphics>0</include_graphics>
+  <name>Source</name>
+  <revert_to>Current</revert_to>
+</Marker>
+<Intensity>
+  <amount>-135</amount>
+  <noise_threshold>20</noise_threshold>
+</Intensity>
+<RGB_Filter>
+  <channel>2</channel>
+  <hue_value>120</hue_value>
+  <hysteresis>0</hysteresis>
+  <min_value>60</min_value>
+  <result_type>2</result_type>
+</RGB_Filter>
+<Dilate>
+  <avoid_connection>FALSE</avoid_connection>
+  <count>1</count>
+  <dilate_borders>TRUE</dilate_borders>
+  <kernal_shape>4</kernal_shape>
+</Dilate>
+<Erode>
+  <count>1</count>
+  <erode_borders>TRUE</erode_borders>
+  <kernal_shape>4</kernal_shape>
+  <no_removal>FALSE</no_removal>
+  <remove_count>0</remove_count>
+</Erode>
+<Fill>
+  <check_border>FALSE</check_border>
+  <fill_with_average_color>FALSE</fill_with_average_color>
+  <four_pixel_connectivity>FALSE</four_pixel_connectivity>
+  <size>0</size>
+</Fill>
+<Convex_Hull/>
+<Blob_Filter>
+  <create_blob_array_variable>FALSE</create_blob_array_variable>
+  <filters>
+    <tab>
+      <filter>
+        <count_threshold>0</count_threshold>
+        <create_array>0</create_array>
+        <filter_id>56</filter_id>
+        <invert_count>0</invert_count>
+        <invert_threshold>0</invert_threshold>
+        <weight_threshold>0.5</weight_threshold>
+      </filter>
+      <filter:2>
+        <count_threshold>0</count_threshold>
+        <create_array>0</create_array>
+        <filter_id>66</filter_id>
+        <invert_count>0</invert_count>
+        <invert_threshold>0</invert_threshold>
+        <weight_threshold>0.5</weight_threshold>
+      </filter:2>
+      <filter:3>
+        <count_threshold>0</count_threshold>
+        <create_array>0</create_array>
+        <filter_id>21</filter_id>
+        <invert_count>0</invert_count>
+        <invert_threshold>0</invert_threshold>
+        <weight_threshold>0.5</weight_threshold>
+      </filter:3>
+    </tab>
+    <tab:2/>
+    <tab:3/>
+    <tab:4/>
+    <tab:5/>
+    <tab:6/>
+  </filters>
+  <font_size>Normal (10pt)</font_size>
+  <largest_is_background>FALSE</largest_is_background>
+  <show_weights>FALSE</show_weights>
+  <sort_array_on_x>FALSE</sort_array_on_x>
+  <sort_array_on_y>FALSE</sort_array_on_y>
+</Blob_Filter>
+<Blob_Replace>
+  <color_index>3</color_index>
+  <fill_shape>TRUE</fill_shape>
+  <order_array_on_x>FALSE</order_array_on_x>
+  <order_array_on_y>FALSE</order_array_on_y>
+  <overlay_image>Source</overlay_image>
+  <shape_index>15</shape_index>
+  <thickness>1</thickness>
+</Blob_Replace>
+<Python_Program_v3x>
+  <auto_reload>TRUE</auto_reload>
+  <continue_on_errors>FALSE</continue_on_errors>
+  <filename>.\Work In Progress\TTv8.py</filename>
+  <script>import rr
+</script>
+  <source_mode>file</source_mode>
+  <tab_size_index>1</tab_size_index>
+</Python_Program_v3x>
+<Display_Variables>
+  <border_color>red</border_color>
+  <dim_background>TRUE</dim_background>
+  <display_as_annotation>FALSE</display_as_annotation>
+  <display_value_only>FALSE</display_value_only>
+  <east>X_LocationD
+Y_LocationD
+</east>
+  <font_color>white</font_color>
+  <font_size>Normal (10pt)</font_size>
+  <north>validUpdate
+</north>
+  <northeast>Num_Targets
+</northeast>
+  <northwest>Distance
+</northwest>
+  <west>Angle
+</west>
+</Display_Variables>
+<Display_Line>
+  <clear_image>0</clear_image>
+  <color_index>red</color_index>
+  <display_as_annotation>1</display_as_annotation>
+  <display_mode_index>1</display_mode_index>
+  <thickness>4</thickness>
+  <xy_list_map/>
+  <x_end>200</x_end>
+  <x_end_map>X_Location</x_end_map>
+  <x_start>100</x_start>
+  <x_start_map>IMAGE_WIDTH / 2</x_start_map>
+  <y_end>100</y_end>
+  <y_end_map>Y_Location</y_end_map>
+  <y_start>100</y_start>
+  <y_start_map>IMAGE_HEIGHT /2</y_start_map>
+</Display_Line>
+<Display_Point>
+  <clear_image>0</clear_image>
+  <data_source_index>0</data_source_index>
+  <display_as_annotation>1</display_as_annotation>
+  <shape_color>white</shape_color>
+  <shape_index>2</shape_index>
+  <shape_size>6</shape_size>
+  <thickness>50</thickness>
+  <xy_variable/>
+  <x_coord>100</x_coord>
+  <x_variable>IMAGE_WIDTH/2</x_variable>
+  <y_coord>100</y_coord>
+  <y_variable>IMAGE_HEIGHT/2</y_variable>
+</Display_Point>
+<Display_Line>
+  <clear_image>0</clear_image>
+  <color_index>cyan</color_index>
+  <display_as_annotation>1</display_as_annotation>
+  <display_mode_index>1</display_mode_index>
+  <thickness>2</thickness>
+  <xy_list_map/>
+  <x_end>200</x_end>
+  <x_end_map>IMAGE_WIDTH/2</x_end_map>
+  <x_start>100</x_start>
+  <x_start_map>IMAGE_WIDTH/2</x_start_map>
+  <y_end>100</y_end>
+  <y_end_map>0</y_end_map>
+  <y_start>100</y_start>
+  <y_start_map>IMAGE_HEIGHT</y_start_map>
+</Display_Line>
+<NetworkTables>
+  <delay>40</delay>
+  <filter_type_index>1</filter_type_index>
+  <hostname>roboRIO-501-FRC.local</hostname>
+  <port>1735</port>
+  <prefix>/Camera/</prefix>
+  <variables_to_send>Angle
+Distance
+Num_Targets
+validUpdate</variables_to_send>
+  <variable_type_index>0</variable_type_index>
+</NetworkTables>
+<Write_Variables disabled>
+  <append>TRUE</append>
+  <colom_delimiter>[comma]</colom_delimiter>
+  <filename>.\Work In Progress\BFRCoorLive.txt</filename>
+  <file_type>text</file_type>
+  <first_row_names>TRUE</first_row_names>
+  <overwrite>FALSE</overwrite>
+  <row_delimiter>[CRLF]</row_delimiter>
+  <text_delimiter>[double quote]</text_delimiter>
+  <variables_to_save>BFR_COORDINATES</variables_to_save>
+  <write_on_change>TRUE</write_on_change>
+</Write_Variables>
+<Python_Program_v3x disabled>
+  <auto_reload>TRUE</auto_reload>
+  <continue_on_errors>FALSE</continue_on_errors>
+  <filename>.\TimeStamp.py</filename>
+  <script>import rr 
+import time
+
+
+t= time.localtime()
+
+month = t[1]
+day = t[2]
+year = t[0]
+
+hour = t[3]
+min = t[4]
+sec = t[5]
+
+stamp = str(month) + "_" + str(day) + "_" + str(year) + "time_" + str(hour) + "_" + str(min) + "_" + str(sec)
+
+name = "C://Users//Driver//Desktop//Match Pictures2//" + stamp + ".jpg"
+
+rr.SetVariable("my_filename", name)</script>
+  <source_mode>file</source_mode>
+  <tab_size_index>1</tab_size_index>
+</Python_Program_v3x>
+<Write_Images disabled>
+  <create_folder>FALSE</create_folder>
+  <exif_name_1>[CLOCK_TIME]</exif_name_1>
+  <exif_name_2>[CLOCK_DATETIME]</exif_name_2>
+  <exif_name_3>[CLOCK_DATETIME]</exif_name_3>
+  <exif_name_4>[CLOCK_DATETIME]</exif_name_4>
+  <exif_name_5>[CLOCK_DATETIME]</exif_name_5>
+  <exif_name_6>[CLOCK_DATETIME]</exif_name_6>
+  <exif_value_1>[CLOCK_DATETIME]</exif_value_1>
+  <exif_value_2>[CLOCK_DATETIME]</exif_value_2>
+  <exif_value_3>[CLOCK_DATETIME]</exif_value_3>
+  <exif_value_4>[CLOCK_DATETIME]</exif_value_4>
+  <exif_value_5>[CLOCK_DATETIME]</exif_value_5>
+  <exif_value_6>[CLOCK_DATETIME]</exif_value_6>
+  <filename>[my_filename]</filename>
+  <image_to_save>Current</image_to_save>
+  <is_recording>TRUE</is_recording>
+  <jpeg_quality>1</jpeg_quality>
+  <limit_frames>0</limit_frames>
+  <limit_time_number>3</limit_time_number>
+  <limit_time_type>2</limit_time_type>
+  <number_from>1</number_from>
+  <number_images>FALSE</number_images>
+  <silent_errors>FALSE</silent_errors>
+  <write_exif>FALSE</write_exif>
+  <write_immediately>TRUE</write_immediately>
+</Write_Images>

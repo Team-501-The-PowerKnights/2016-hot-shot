@@ -1,0 +1,218 @@
+<xml version="1.0">
+<dashboard>
+	<widget field="pidRotation" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="667" y="200"/>
+		<width>85</width>
+		<height>28</height>
+	</widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.WebcamViewerExtension">
+		<location x="806" y="6"/>
+		<width>614</width>
+		<height>450</height>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.RobotPreferences">
+		<location x="5" y="239"/>
+		<width>392</width>
+		<height>339</height>
+	</static-widget>
+	<static-widget class="edu.wpi.first.smartdashboard.gui.elements.ConnectionIndicator">
+		<location x="592" y="2"/>
+		<width>40</width>
+		<height>41</height>
+	</static-widget>
+	<widget field="rightDriveMotor(s)" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="471" y="57"/>
+	</widget>
+	<widget field="leftDriveMotor(s)" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="304" y="57"/>
+	</widget>
+	<widget field="SUBSYSTEMS" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="649" y="7"/>
+	</widget>
+	<widget field="Vision" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="705" y="67"/>
+	</widget>
+	<widget field="Drive" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="705" y="46"/>
+	</widget>
+	<widget field="driving" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="610" y="154"/>
+	</widget>
+	<widget field="started" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="609" y="135"/>
+	</widget>
+	<widget field="Chassis" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="705" y="27"/>
+	</widget>
+	<widget field="autoElevation" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="692" y="284"/>
+		<width>94</width>
+		<height>26</height>
+	</widget>
+	<widget field="elevationMotor" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="507" y="333"/>
+	</widget>
+	<widget field="feederMotor" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="511" y="236"/>
+	</widget>
+	<widget field="liftEnabled" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="426" y="502"/>
+		<width>77</width>
+		<height>23</height>
+	</widget>
+	<widget field="doingHanging" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="570" y="497"/>
+		<width>115</width>
+		<height>34</height>
+	</widget>
+	<widget field="timeOut" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="37" y="215"/>
+	</widget>
+	<widget field="scissorLiftMotor" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="859" y="537"/>
+	</widget>
+	<widget field="rightWinchMotor(s)" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="668" y="541"/>
+	</widget>
+	<widget field="leftWinchMotor(s)" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="499" y="542"/>
+	</widget>
+	<widget field="Shooter" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="650" y="69"/>
+	</widget>
+	<widget field="rightShooterMotor" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="672" y="434"/>
+	</widget>
+	<widget field="HMI" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="650" y="27"/>
+	</widget>
+	<widget field="Lifter" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="651" y="48"/>
+	</widget>
+	<widget field="leftShooterMotor" type="Boolean" class="edu.wpi.first.smartdashboard.gui.elements.BooleanBox">
+		<location x="498" y="433"/>
+	</widget>
+	<widget field="hmiFeederSpeed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="424" y="210"/>
+	</widget>
+	<widget field="hmiShotSpeed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="439" y="403"/>
+	</widget>
+	<widget field="hmiElevationSpeed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="415" y="306"/>
+	</widget>
+	<widget field="turn" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="432" y="30"/>
+	</widget>
+	<widget field="hmiTurn" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="413" y="4"/>
+	</widget>
+	<widget field="speed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="286" y="30"/>
+	</widget>
+	<widget field="hmiSpeed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="270" y="5"/>
+	</widget>
+	<widget field="operatorPad" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="142" y="577"/>
+	</widget>
+	<widget field="driverPad" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="6" y="576"/>
+	</widget>
+	<widget field="driveMode" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="291" y="578"/>
+	</widget>
+	<widget field="elevationPosition" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="623" y="318"/>
+	</widget>
+	<widget field="feederPosition" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="599" y="235"/>
+	</widget>
+	<widget field="farWallDistance" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="263" y="162"/>
+	</widget>
+	<widget field="nearWallDistance" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="255" y="138"/>
+	</widget>
+	<widget field="timeOutFail" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="91" y="212"/>
+	</widget>
+	<widget field="scissorLiftSpeed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="785" y="556"/>
+	</widget>
+	<widget field="rightWinchSpeed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="604" y="560"/>
+	</widget>
+	<widget field="leftWinchSpeed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="434" y="561"/>
+	</widget>
+	<widget field="elevationSpeed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="433" y="353"/>
+		<height>20</height>
+	</widget>
+	<widget field="rightShooterSpeed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="594" y="454"/>
+	</widget>
+	<widget field="leftShooterSpeed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="415" y="456"/>
+	</widget>
+	<widget field="feederSpeed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="442" y="255"/>
+	</widget>
+	<widget field="distSource" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="375" y="110"/>
+	</widget>
+	<widget field="rightDriveSpeed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="405" y="78"/>
+	</widget>
+	<widget field="leftDriveSpeed" type="Number" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="241" y="79"/>
+	</widget>
+	<widget field="MODE" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="265" y="210"/>
+		<width>131</width>
+	</widget>
+	<widget field="String 9" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="189"/>
+		<width>230</width>
+	</widget>
+	<widget field="String 8" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="168"/>
+		<width>231</width>
+	</widget>
+	<widget field="String 7" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="147"/>
+		<width>232</width>
+	</widget>
+	<widget field="String 6" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="126"/>
+		<width>232</width>
+	</widget>
+	<widget field="String 5" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="-1" y="105"/>
+		<width>234</width>
+	</widget>
+	<widget field="String 4" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="84"/>
+		<width>232</width>
+	</widget>
+	<widget field="String 3" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="63"/>
+		<width>232</width>
+	</widget>
+	<widget field="String 0" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="42"/>
+		<width>233</width>
+	</widget>
+	<widget field="String 2" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="21"/>
+		<width>232</width>
+	</widget>
+	<widget field="String 1" type="String" class="edu.wpi.first.smartdashboard.gui.elements.TextBox">
+		<location x="0" y="0"/>
+		<width>232</width>
+	</widget>
+</dashboard>
+<live-window>
+</live-window>
+</xml>

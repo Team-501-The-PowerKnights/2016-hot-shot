@@ -1,0 +1,54 @@
+/**
+ * Copyright (c) Team 501 Power Knights 2015. All Rights Reserved. Open Source
+ * Software - May be modified and shared by FRC teams. The code must be
+ * accompanied by the FIRST BSD license file in the root directory of the
+ * project. You may also obtain a copy of it from the following:
+ * http://www.opensource.org/licenses/bsd-license.php.
+ *
+ * See (Git) repository metadata for author and revision history for this file.
+ **/
+
+package com.powerknights.frc2016.robot.modes.teleoperated;
+
+
+import org.slf4j.Logger;
+
+import com.powerknights.frc2016.riolog.RioLogger;
+import com.powerknights.frc2016.robot.modes.ModeImplementer;
+
+import edu.wpi.first.wpilibj.RobotBase;
+
+
+/**
+ * @author first.stu
+ **/
+public abstract class TeleoperatedMode
+   extends ModeImplementer
+{
+
+   /** Our classes' logger **/
+   @SuppressWarnings( "unused" )
+   private static final Logger logger =
+      RioLogger.getLogger( TeleoperatedMode.class.getName() );
+
+
+   public TeleoperatedMode( RobotBase robot )
+   {
+      super( robot, "TeleOperated" );
+   }
+
+
+   /**
+    * Returns whether the mode is still active (and the robot should be
+    * performing the appropriate tasks) or not (in which case it should return
+    * to let the next mode / state start).
+    *
+    * @return <code>true</code> if and only if the mode is active;
+    *         <code>false</code> otherwise.
+    **/
+   protected boolean isActive()
+   {
+      return robot.isOperatorControl() && robot.isEnabled();
+   }
+
+}
